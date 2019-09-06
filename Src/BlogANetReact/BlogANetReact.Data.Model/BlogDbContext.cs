@@ -10,7 +10,6 @@ namespace BlogANetReact.Data.Model
     {
         public DbSet<AuthorEntity> Authors { get; set; }
         public DbSet<AuthorTagEntity> AuthorTags { get; set; }
-        public DbSet<CommentAuthorEntity> CommentAuthors { get; set; }
         public DbSet<CommentEntity> Comments { get; set; }
         public DbSet<LocaleEntity> Locales { get; set; }
         public DbSet<PageEntity> Pages { get; set; }

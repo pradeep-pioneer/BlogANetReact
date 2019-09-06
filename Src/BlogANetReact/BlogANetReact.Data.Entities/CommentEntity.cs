@@ -1,11 +1,18 @@
 ﻿using BlogANetReact.Data.Entities.Base;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace BlogANetReact.Data.Entities
 {
-    public class CommentEntity : Entity
+    public class CommentResponseEntity : CommentEntity
     {
+        public int ParentId { get; set; }
+        public CommentEntity Parent { get; set; }
+    }
+    public class CommentEntity : Entity<int>
+    {
+        public int AuthorId { get; set; }
+        public AuthorEntity Author { get; set; }
+        public string Comment { get; set; }
+        public List<CommentResponseEntity> CommentResponses { get; set; }
     }
 }

@@ -1,8 +1,6 @@
 ﻿using BlogANetReact.Data.Entities.Base;
 using Microsoft.AspNetCore.Identity;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BlogANetReact.Data.Entities
 {
@@ -13,5 +11,6 @@ namespace BlogANetReact.Data.Entities
         public Guid CreatedBy { get; set; }
         public DateTime? ModifiedOn { get; set; }
         public Guid? ModifiedBy { get; set; }
+        public AuthorEntity AuthorProfile { get; set; }
     }
 }

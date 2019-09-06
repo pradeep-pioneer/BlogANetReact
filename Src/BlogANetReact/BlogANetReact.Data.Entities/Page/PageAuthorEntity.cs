@@ -3,13 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BlogANetReact.Data.Entities
+namespace BlogANetReact.Data.Entities.Page
 {
-    public class AuthorTagEntity : Entity<int>
+    public class PageAuthorEntity : Entity<int>
     {
-        public int TagId { get; set; }
-        public TagEntity Tag { get; set; }
         public int AuthorId { get; set; }
         public AuthorEntity Author { get; set; }
+        public Guid PageId { get; set; }
+        public PageEntity Page { get; set; }
     }
 }
