@@ -1,0 +1,1 @@
+dotnet-ef migrations add -c BlogANetReact.Data.Model.BlogDbContext -p ./BlogANetReact.CodeGen/BlogANetReact.CodeGen.csproj -s ./BlogANetReact.Migrations.Runner/BlogANetReact.Migrations.Runner.csproj first

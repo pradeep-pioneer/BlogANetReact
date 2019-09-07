@@ -12,6 +12,6 @@ namespace BlogANetReact.Data.Entities.Auth
         public Guid CreatedBy { get; set; }
         public DateTime? ModifiedOn { get; set; }
         public Guid? ModifiedBy { get; set; }
-        public AuthorEntity AuthorProfile { get; set; }
+        public AuthorEntity Author { get; set; }
     }
 }

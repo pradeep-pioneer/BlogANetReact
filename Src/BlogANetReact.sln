@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogANetReact.Data.Model", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{5DBD6818-E830-44E1-A13C-3CB33176976B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogANetReact.CodeGen", "BlogANetReact.CodeGen\BlogANetReact.CodeGen.csproj", "{8D1631E5-32D6-4707-8BAB-92081749B574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogANetReact.Migrations.Code", "BlogANetReact.Migrations.Code\BlogANetReact.Migrations.Code.csproj", "{0E2931C1-CEDC-4928-AC72-E23CA3A9D459}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{ED0EC0A0-386D-45F7-B5C8-C4E2FE07B4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED0EC0A0-386D-45F7-B5C8-C4E2FE07B4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED0EC0A0-386D-45F7-B5C8-C4E2FE07B4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1631E5-32D6-4707-8BAB-92081749B574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1631E5-32D6-4707-8BAB-92081749B574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1631E5-32D6-4707-8BAB-92081749B574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1631E5-32D6-4707-8BAB-92081749B574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2931C1-CEDC-4928-AC72-E23CA3A9D459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2931C1-CEDC-4928-AC72-E23CA3A9D459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2931C1-CEDC-4928-AC72-E23CA3A9D459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2931C1-CEDC-4928-AC72-E23CA3A9D459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F61E2623-9171-4704-A8AB-D283C578D8AE} = {7726FA2F-7872-46E2-98E5-2304507882A0}
 		{ED0EC0A0-386D-45F7-B5C8-C4E2FE07B4BF} = {7726FA2F-7872-46E2-98E5-2304507882A0}
+		{8D1631E5-32D6-4707-8BAB-92081749B574} = {5DBD6818-E830-44E1-A13C-3CB33176976B}
+		{0E2931C1-CEDC-4928-AC72-E23CA3A9D459} = {5DBD6818-E830-44E1-A13C-3CB33176976B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA404C2F-93E7-49FE-8CDB-29F3106C6F95}

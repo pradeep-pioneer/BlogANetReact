@@ -7,4 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BlogANetReact.Data.Entities\BlogANetReact.Data.Entities.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.0.0-preview9" />
+  </ItemGroup>
 </Project>

@@ -10,8 +10,10 @@ namespace BlogANetReact.Data.Entities.Author
         public string CoverImage { get; set; }
         public string PenName { get; set; }
         public string Introduction { get; set; }
+        public int AuthorId { get; set; }
+        public AuthorEntity Author { get; set; }
         public Guid LocaleId { get; set; }
         public LocaleEntity Locale { get; set; }
-        public List<TranslatedAuthorProfile> TranslatedAuthorProfiles { get; set; }
+        public List<TranslatedAuthorProfileEntity> TranslatedAuthorProfiles { get; set; }
     }
 }

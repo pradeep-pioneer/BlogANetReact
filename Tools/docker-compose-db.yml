@@ -1,0 +1,26 @@
+version: '3'
+services:
+  blogdb:
+    image: postgres:alpine
+    restart: always
+    environment:
+      POSTGRES_USER: blog_backend
+      POSTGRES_PASSWORD: B!oZy4@tM1#
+    ports:
+      - 5432:5432
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U blog_backend"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  pgadmin:
+    image: dpage/pgadmin4
+    ports: 
+      - 8080:80
+    environment: 
+      - "PGADMIN_DEFAULT_EMAIL=contact@pradeep.vip"
+      - "PGADMIN_DEFAULT_PASSWORD=B!oZy4@tM1#"
+    links: 
+      - blogdb
+    depends_on:
+      - blogdb
