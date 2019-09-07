@@ -1,4 +1,5 @@
-﻿using BlogANetReact.Data.Entities.Base;
+﻿using BlogANetReact.Data.Entities.Author;
+using BlogANetReact.Data.Entities.Base;
 using System.Collections.Generic;
 
 namespace BlogANetReact.Data.Entities

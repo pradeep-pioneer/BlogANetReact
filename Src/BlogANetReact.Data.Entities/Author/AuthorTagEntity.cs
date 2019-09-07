@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BlogANetReact.Data.Entities
+namespace BlogANetReact.Data.Entities.Author
 {
     public class AuthorTagEntity : Entity<int>
     {

@@ -1,4 +1,5 @@
 ﻿using BlogANetReact.Data.Entities;
+using BlogANetReact.Data.Entities.Auth;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

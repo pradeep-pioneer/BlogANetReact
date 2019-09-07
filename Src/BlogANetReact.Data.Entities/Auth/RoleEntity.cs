@@ -1,10 +1,8 @@
 ﻿using BlogANetReact.Data.Entities.Base;
 using Microsoft.AspNetCore.Identity;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace BlogANetReact.Data.Entities
+namespace BlogANetReact.Data.Entities.Auth
 {
     public class RoleEntity : IdentityRole<Guid>, IEntity
     {

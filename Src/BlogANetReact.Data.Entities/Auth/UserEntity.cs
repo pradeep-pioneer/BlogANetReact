@@ -1,8 +1,9 @@
-﻿using BlogANetReact.Data.Entities.Base;
+﻿using BlogANetReact.Data.Entities.Author;
+using BlogANetReact.Data.Entities.Base;
 using Microsoft.AspNetCore.Identity;
 using System;
 
-namespace BlogANetReact.Data.Entities
+namespace BlogANetReact.Data.Entities.Auth
 {
     public class UserEntity : IdentityUser<Guid>, IEntity
     {

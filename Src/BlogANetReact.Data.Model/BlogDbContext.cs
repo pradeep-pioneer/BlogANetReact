@@ -1,8 +1,8 @@
 ﻿using BlogANetReact.Data.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using BlogANetReact.Data.Entities.Page;
+using BlogANetReact.Data.Entities.Author;
+using BlogANetReact.Data.Entities.Post;
 
 namespace BlogANetReact.Data.Model
 {
