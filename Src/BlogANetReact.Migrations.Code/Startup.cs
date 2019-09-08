@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlogANetReact.Data.Entities.Auth;
 using Microsoft.AspNetCore.Identity;
+using System;
 
 namespace BlogANetReact.Migrations.Code
 {
@@ -98,12 +99,29 @@ namespace BlogANetReact.Migrations.Code
             }
 
             var dbLanguages = await context.Languages.ToListAsync();
+            
             var missingLanguages = Data.Languages.Where(requiredLanguage => !dbLanguages.Any(dbLanguage => dbLanguage.LanguageCode == requiredLanguage.LanguageCode));
             if(missingLanguages.Any())
             {
-                foreach (var item in missingLanguages)
+                await context.Languages.AddRangeAsync(missingLanguages);
+            }
+            await context.SaveChangesAsync();
+
+            var dbLocales = await context.Locales.ToListAsync();
+            var missingLocales = Data.Locales.Where(requiredLocale => !dbLocales.Any(dbLocale => dbLocale.LCID == requiredLocale.LCID));
+            var languages = await context.Languages.ToListAsync();
+            if(missingLocales.Any())
+            {
+                foreach (var item in missingLocales)
                 {
-                    await context.Languages.AddAsync(item);
+                    item.CreatedBy = Guid.Empty;
+                    item.CreatedOn = Data.TimeStamp;
+                    var language = languages.FirstOrDefault(x => x.LanguageCode == item.LCID.Split('-')[0]);
+                    if(language!=null)
+                    {
+                        item.Language = language;
+                    }
+                    await context.Locales.AddAsync(item);
                 }
             }
             await context.SaveChangesAsync();

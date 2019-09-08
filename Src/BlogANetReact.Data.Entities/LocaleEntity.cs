@@ -18,7 +18,7 @@ namespace BlogANetReact.Data.Entities
 
         public List<AuthorProfileEntity> AuthorProfiles { get; set; }
 
-        public Guid LanguageId { get; set; }
+        public Guid? LanguageId { get; set; }
         public LanguageEntity Language { get; set; }
     }
 }

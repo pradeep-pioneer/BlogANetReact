@@ -265,7 +265,8 @@ namespace BlogANetReact.Data.Model
             modelBuilder.Entity<LanguageEntity>()
                 .HasKey(x => x.Id);
             modelBuilder.Entity<LanguageEntity>()
-                .HasIndex(x => new { x.LanguageCode });
+                .HasIndex(x => new { x.LanguageCode })
+                .IsUnique();
             modelBuilder.Entity<LanguageEntity>()
                 .HasIndex(x => new { x.Active, x.LanguageName });
             modelBuilder.Entity<LanguageEntity>()
