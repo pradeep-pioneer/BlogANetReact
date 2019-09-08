@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace BlogANetReact.Data.Entities
 {
-    public class LocaleEntity : Entity<Guid>
+    public class LocaleEntity : Entity<int>
     {
         public string LCID { get; set; }
         public string LocaleName { get; set; }
@@ -18,7 +18,7 @@ namespace BlogANetReact.Data.Entities
 
         public List<AuthorProfileEntity> AuthorProfiles { get; set; }
 
-        public Guid? LanguageId { get; set; }
+        public long? LanguageId { get; set; }
         public LanguageEntity Language { get; set; }
     }
 }

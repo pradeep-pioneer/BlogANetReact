@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace BlogANetReact.Data.Entities
 {
-    public class LanguageEntity : Entity<Guid>
+    public class LanguageEntity : Entity<long>
     {
         public string LanguageCode { get; set; }
         public string LanguageName { get; set; }

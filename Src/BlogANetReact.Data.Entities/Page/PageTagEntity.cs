@@ -7,9 +7,9 @@ namespace BlogANetReact.Data.Entities.Page
 {
     public class PageTagEntity : Entity<int>
     {
-        public Guid TagId { get; set; }
+        public int TagId { get; set; }
         public TagEntity Tag { get; set; }
-        public Guid PageId { get; set; }
+        public long PageId { get; set; }
         public PageEntity Page { get; set; }
     }
 }

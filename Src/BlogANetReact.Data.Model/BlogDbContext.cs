@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlogANetReact.Data.Model
 {
-    public class BlogDbContext : IdentityDbContext<UserEntity, RoleEntity, Guid>, IBlogDbContext
+    public class BlogDbContext : IdentityDbContext<UserEntity, RoleEntity, int>, IBlogDbContext
     {
         public DbSet<LocaleEntity> Locales { get; set; }
         public DbSet<LanguageEntity> Languages { get; set; }

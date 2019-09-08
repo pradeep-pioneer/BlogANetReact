@@ -4,12 +4,12 @@ using System;
 
 namespace BlogANetReact.Data.Entities.Auth
 {
-    public class RoleEntity : IdentityRole<Guid>, IEntity
+    public class RoleEntity : IdentityRole<int>, IEntity
     {
         public bool Active { get; set; }
         public DateTime CreatedOn { get; set; }
-        public Guid CreatedBy { get; set; }
+        public int CreatedBy { get; set; }
         public DateTime? ModifiedOn { get; set; }
-        public Guid? ModifiedBy { get; set; }
+        public int? ModifiedBy { get; set; }
     }
 }

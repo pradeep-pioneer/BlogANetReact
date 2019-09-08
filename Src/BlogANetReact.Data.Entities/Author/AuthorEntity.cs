@@ -14,7 +14,7 @@ namespace BlogANetReact.Data.Entities.Author
         public List<AuthorTagEntity> AuthorTags { get; set; }
         public List<PageAuthorEntity> Pages { get; set; }
         public List<PostAuthorEntity> Posts { get; set; }
-        public Guid UserId { get; set; }
+        public int UserId { get; set; }
         public UserEntity User { get; set; }
         public List<PageCommentEntity> PageComments { get; set; }
         public List<PageCommentResponseEntity> PageCommentResponses { get; set; }

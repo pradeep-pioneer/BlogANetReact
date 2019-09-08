@@ -18,13 +18,13 @@ namespace BlogANetReact.Data.Entities.Base
 
     }
 
-    public class ContentEntiity : Entity<Guid>
+    public class ContentEntiity : Entity<long>
     {
         public string Title { get; set; }
         public string CoverImage { get; set; }
         public string BodyText { get; set; }
         public string BodyHtml { get; set; }
-        public Guid LocaleId { get; set; } 
+        public int LocaleId { get; set; } 
         public LocaleEntity Locale { get; set; }
         public string Slug { get; set; }
         public ContentState State { get; set; }

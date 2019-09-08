@@ -114,7 +114,7 @@ namespace BlogANetReact.Migrations.Code
             {
                 foreach (var item in missingLocales)
                 {
-                    item.CreatedBy = Guid.Empty;
+                    item.CreatedBy = Data.CreatedBy;
                     item.CreatedOn = Data.TimeStamp;
                     var language = languages.FirstOrDefault(x => x.LanguageCode == item.LCID.Split('-')[0]);
                     if(language!=null)

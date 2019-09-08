@@ -8,9 +8,9 @@ namespace BlogANetReact.Data.Entities.Base
     {
         bool Active { get; set; }
         DateTime CreatedOn { get; set; }
-        Guid CreatedBy { get; set; }
+        int CreatedBy { get; set; }
         DateTime? ModifiedOn { get; set; }
-        Guid? ModifiedBy { get; set; }
+        int? ModifiedBy { get; set; }
     }
     public interface IEntity<T> : IEntity
     {

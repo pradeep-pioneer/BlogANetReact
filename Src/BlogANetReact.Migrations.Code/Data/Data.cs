@@ -8,7 +8,7 @@ namespace BlogANetReact.Migrations.Code
     public static class Data
     {
         public static DateTime TimeStamp => DateTime.Now;
-
+        public static int CreatedBy = -1;
         #region [ Languages ]
         public static List<LanguageEntity> Languages => new List<LanguageEntity>()
         {
@@ -18,7 +18,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ab",
                 LocalName = "аҧсуа бызшәа",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -27,7 +27,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "aa",
                 LocalName = "Afaraf",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -36,7 +36,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "af",
                 LocalName = "Afrikaans",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -45,7 +45,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sq",
                 LocalName = "Shqip",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -54,7 +54,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "am",
                 LocalName = "አማርኛ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -63,7 +63,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ar",
                 LocalName = "العربية",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -72,7 +72,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "an",
                 LocalName = "aragonés",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -81,7 +81,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "hy",
                 LocalName = "Հայերեն",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -90,7 +90,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "as",
                 LocalName = "অসমীয়া",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -99,7 +99,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "av",
                 LocalName = "авар мацӀ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -108,7 +108,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ae",
                 LocalName = "avesta",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -117,7 +117,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ay",
                 LocalName = "aymar aru",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -126,7 +126,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "az",
                 LocalName = "azərbaycan dili",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -135,7 +135,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "bm",
                 LocalName = "bamanankan",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -144,7 +144,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ba",
                 LocalName = "башҡорт теле",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -153,7 +153,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "eu",
                 LocalName = "euskara",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -162,7 +162,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "be",
                 LocalName = "Беларуская мова",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -171,7 +171,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "bn",
                 LocalName = "বাংলা",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -180,7 +180,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "bh",
                 LocalName = "भोजपुरी",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -189,7 +189,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "bi",
                 LocalName = "Bislama",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -198,7 +198,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "bs",
                 LocalName = "bosanski jezik",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -207,7 +207,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "br",
                 LocalName = "brezhoneg",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -216,7 +216,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "bg",
                 LocalName = "български език",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -225,7 +225,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "my",
                 LocalName = "ဗမာစာ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -234,7 +234,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ca",
                 LocalName = "català",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -243,7 +243,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "km",
                 LocalName = "ភាសាខ្មែរ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -252,7 +252,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ch",
                 LocalName = "Chamoru",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -261,7 +261,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ce",
                 LocalName = "нохчийн мотт",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
 
@@ -271,7 +271,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ny",
                 LocalName = "chiCheŵa",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -280,7 +280,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "zh",
                 LocalName = "汉语",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -289,7 +289,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "cu",
                 LocalName = "ѩзыкъ словѣньскъ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -298,7 +298,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "cv",
                 LocalName = "чӑваш чӗлхи",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -307,7 +307,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kw",
                 LocalName = "Kernewek",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -316,7 +316,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "co",
                 LocalName = "corsu",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -325,7 +325,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "cr",
                 LocalName = "ᓀᐦᐃᔭᐍᐏᐣ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -334,7 +334,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "hr",
                 LocalName = "hrvatski jezik",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -343,7 +343,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "cs",
                 LocalName = "čeština",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -352,7 +352,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "da",
                 LocalName = "dansk",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -361,7 +361,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "nl",
                 LocalName = "Nederlands",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -370,7 +370,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "dz",
                 LocalName = "རྫོང་ཁ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -379,7 +379,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "en",
                 LocalName = "English",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -388,7 +388,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "et",
                 LocalName = "eesti",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -397,7 +397,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ee",
                 LocalName = "Eʋegbe",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -406,7 +406,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "fo",
                 LocalName = "føroyskt",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -415,7 +415,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "fj",
                 LocalName = "vosa Vakaviti",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -424,7 +424,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "fi",
                 LocalName = "suomi",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -433,7 +433,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "mk",
                 LocalName = "македонски јазик",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -442,7 +442,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "fa",
                 LocalName = "فارسی",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -451,7 +451,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "fr",
                 LocalName = "français",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -460,7 +460,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ff",
                 LocalName = "Fulfulde",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -469,7 +469,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "gd",
                 LocalName = "Gàidhlig",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -478,7 +478,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "gl",
                 LocalName = "Galego",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -487,7 +487,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "lg",
                 LocalName = "Luganda",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -496,7 +496,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ka",
                 LocalName = "ქართული",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -505,7 +505,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "de",
                 LocalName = "Deutsch",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -514,7 +514,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "el",
                 LocalName = "ελληνικά",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -523,7 +523,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "gn",
                 LocalName = "Avañe'ẽ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -532,7 +532,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "gu",
                 LocalName = "ગુજરાતી",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -541,7 +541,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ht",
                 LocalName = "Kreyòl ayisyen",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -550,7 +550,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ha",
                 LocalName = "هَوُسَ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -559,7 +559,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "he",
                 LocalName = "עברית",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -568,7 +568,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "hz",
                 LocalName = "Otjiherero",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -577,7 +577,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "hi",
                 LocalName = "हिन्दी",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -586,7 +586,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ho",
                 LocalName = "Hiri Motu",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -595,7 +595,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "hu",
                 LocalName = "magyar",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -604,7 +604,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "is",
                 LocalName = "Íslenska",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -613,7 +613,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ig",
                 LocalName = "Asụsụ Igbo",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -622,7 +622,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "id",
                 LocalName = "Bahasa",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -631,7 +631,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "iu",
                 LocalName = "ᐃᓄᒃᑎᑐᑦ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -640,7 +640,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ik",
                 LocalName = "Iñupiaq",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -649,7 +649,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ga",
                 LocalName = "Gaeilge",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -658,7 +658,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "it",
                 LocalName = "Italiano",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -667,7 +667,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ja",
                 LocalName = "日本語",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -676,7 +676,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "jv",
                 LocalName = "Basa Jawa",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -685,7 +685,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kl",
                 LocalName = "kalaallisut",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -694,7 +694,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kn",
                 LocalName = "ಕನ್ನಡ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
 
@@ -704,7 +704,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kr",
                 LocalName = "Kanuri",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -713,7 +713,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ks",
                 LocalName = "कश्मीरी",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -722,7 +722,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kk",
                 LocalName = "қазақ тілі",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -731,7 +731,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ki",
                 LocalName = "Gĩkũyũ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -740,7 +740,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "rw",
                 LocalName = "Ikinyarwanda",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -749,7 +749,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ky",
                 LocalName = "Кыргызча",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -758,7 +758,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kv",
                 LocalName = "коми кыв",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -767,7 +767,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kg",
                 LocalName = "Kikongo",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -776,7 +776,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kok",
                 LocalName = "कोंकणी",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -785,7 +785,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ko",
                 LocalName = "한국어",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -794,7 +794,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "kj",
                 LocalName = "Kuanyama",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -803,7 +803,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ku",
                 LocalName = "کوردی",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -812,7 +812,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "la",
                 LocalName = "latine",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -821,7 +821,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "lo",
                 LocalName = "ພາສາລາວ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -830,7 +830,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "lv",
                 LocalName = "latviešu valoda",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -839,7 +839,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "li",
                 LocalName = "Limburgs",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -848,7 +848,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ln",
                 LocalName = "Lingála",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -857,7 +857,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "lt",
                 LocalName = "lietuvių kalba",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -866,7 +866,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "lu",
                 LocalName = "Kiluba",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -875,7 +875,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "lb",
                 LocalName = "Lëtzebuergesch",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -884,7 +884,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "mg",
                 LocalName = "fiteny malagasy",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -893,7 +893,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ms",
                 LocalName = "بهاس ملايو",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -902,7 +902,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ml",
                 LocalName = "മലയാളം",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -911,7 +911,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "mt",
                 LocalName = "Malti",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -920,7 +920,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "gv",
                 LocalName = "Gaelg",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -929,7 +929,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "mni",
                 LocalName = "Manipuri",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -938,7 +938,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "mi",
                 LocalName = "te reo Māori",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -947,7 +947,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "mr",
                 LocalName = "मराठी",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -956,7 +956,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "mh",
                 LocalName = "Kajin M̧ajeļ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -965,7 +965,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "mn",
                 LocalName = "Монгол хэл",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -974,7 +974,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "na",
                 LocalName = "Dorerin Naoero",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -983,7 +983,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "nv",
                 LocalName = "Diné bizaad",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -992,7 +992,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ng",
                 LocalName = "Owambo",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1001,7 +1001,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ne",
                 LocalName = "नेपाली",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1010,7 +1010,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "nd",
                 LocalName = "isiNdebele",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1019,7 +1019,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "se",
                 LocalName = "Davvisámegiella",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1028,7 +1028,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "no",
                 LocalName = "Norsk",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1037,7 +1037,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "nb",
                 LocalName = "Norsk Bokmål",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1046,7 +1046,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "nn",
                 LocalName = "Norsk Nynorsk",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1055,7 +1055,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "oc",
                 LocalName = "occitan",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1064,7 +1064,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "oj",
                 LocalName = "ᐊᓂᔑᓈᐯᒧᐎᓐ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1073,7 +1073,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "or",
                 LocalName = "ଓଡ଼ିଆ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1082,7 +1082,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "om",
                 LocalName = "Afaan Oromoo",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1091,7 +1091,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "os",
                 LocalName = "ирон æвзаг",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1100,7 +1100,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "pi",
                 LocalName = "पालि",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1109,7 +1109,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ps",
                 LocalName = "پښتو",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1118,7 +1118,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "pl",
                 LocalName  = "język polski",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1127,7 +1127,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "pt",
                 LocalName = "Português",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1136,7 +1136,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "pa",
                 LocalName = "ਪੰਜਾਬੀ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1145,7 +1145,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "qu",
                 LocalName = "Runa Simi",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1154,7 +1154,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "rm",
                 LocalName = "Rumantsch Grischun",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1163,7 +1163,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ro",
                 LocalName = "Română",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1172,7 +1172,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "rn",
                 LocalName = "Ikirundi",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1181,7 +1181,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ru",
                 LocalName = "русский",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1190,7 +1190,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sm",
                 LocalName = "gagana fa'a Samoa",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1199,7 +1199,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sg",
                 LocalName = "yângâ tî sängö",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1208,7 +1208,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sa",
                 LocalName = "संस्कृतम्",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1217,7 +1217,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sc",
                 LocalName = "sardu",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1226,7 +1226,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sr",
                 LocalName = "српски језик",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
 
@@ -1236,7 +1236,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sn",
                 LocalName = "chiShona",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1245,7 +1245,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sd",
                 LocalName = "सिन्धी",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1254,7 +1254,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "si",
                 LocalName = "සිංහල",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1263,7 +1263,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sk",
                 LocalName = "Slovenčina",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1272,7 +1272,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sl",
                 LocalName = "Slovenski Jezik",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1281,7 +1281,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "so",
                 LocalName = "Soomaaliga",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1290,7 +1290,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "st",
                 LocalName = "Sesotho",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1299,7 +1299,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "es",
                 LocalName = "Español",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1308,7 +1308,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "su",
                 LocalName = "Basa Sunda",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1317,7 +1317,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sw",
                 LocalName = "Kiswahili",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1326,7 +1326,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "sv",
                 LocalName = "Svenska",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1335,7 +1335,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ss",
                 LocalName = "SiSwati",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1344,7 +1344,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "tg",
                 LocalName = "тоҷикӣ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1353,7 +1353,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ta",
                 LocalName = "தமிழ்",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1362,7 +1362,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "tt",
                 LocalName = "татар теле",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1371,7 +1371,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "te",
                 LocalName = "తెలుగు",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1380,7 +1380,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "th",
                 LocalName = "ไทย",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
 
@@ -1390,7 +1390,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ti",
                 LocalName = "ትግርኛ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1399,7 +1399,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "bo",
                 LocalName = "བོད་ཡིག",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1408,7 +1408,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "tk",
                 LocalName = "Türkmen",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1417,7 +1417,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "tl",
                 LocalName = "Wikang Tagalog",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1426,7 +1426,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "tn",
                 LocalName = "Setswana",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1435,7 +1435,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "to",
                 LocalName = "Faka Tonga",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1444,7 +1444,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ts",
                 LocalName = "Xitsonga",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1453,7 +1453,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "tr",
                 LocalName = "Türkçe",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1462,7 +1462,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "tw",
                 LocalName = "Twi",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1471,7 +1471,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ty",
                 LocalName = "Reo Tahiti",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1480,7 +1480,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ug",
                 LocalName = "ئۇيغۇرچە",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1489,7 +1489,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "uk",
                 LocalName = "Українська",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1498,7 +1498,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ur",
                 LocalName = "اردو",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1507,7 +1507,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "uz",
                 LocalName = "oʻzbekcha",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1516,7 +1516,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "ve",
                 LocalName = "Tshivenḓa",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1525,7 +1525,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "vi",
                 LocalName = "Tiếng Việt",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1534,7 +1534,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "wa",
                 LocalName = "Walon",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1543,7 +1543,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "cy",
                 LocalName = "Cymraeg",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1552,7 +1552,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "wo",
                 LocalName = "Wollof",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1561,7 +1561,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "fy",
                 LocalName = "Frysk",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1570,7 +1570,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "xh",
                 LocalName = "isiXhosa",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1579,7 +1579,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "yi",
                 LocalName = "ייִדיש",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
 
@@ -1589,7 +1589,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "yo",
                 LocalName = "Yorùbá",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1598,7 +1598,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "za",
                 LocalName = "Saɯ cueŋƅ",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new LanguageEntity()
@@ -1607,7 +1607,7 @@ namespace BlogANetReact.Migrations.Code
                 LanguageCode = "zu",
                 LocalName = "isiZulu",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
         };
@@ -1616,6 +1616,8 @@ namespace BlogANetReact.Migrations.Code
         #region [ Locales ]
         public static List<LocaleEntity> Locales => new List<LocaleEntity>()
         {
+            new LocaleEntity(){ LocaleName = "Pali - India", LCID = "pi-IN", Slug = "pi-IN" },
+            new LocaleEntity(){ LocaleName = "Bhojpuri", LCID = "bh-IN", Slug = "bh-IN" },
             new LocaleEntity(){ LocaleName = "Arabic - Saudi Arabia", LCID = "ar-SA", Slug = "ar-SA" },
             new LocaleEntity(){ LocaleName = "Bulgarian", LCID = "bg-BG", Slug = "bg-BG" },
             new LocaleEntity(){ LocaleName = "Catalan", LCID = "ca-ES", Slug = "ca-ES" },
@@ -1842,6 +1844,7 @@ namespace BlogANetReact.Migrations.Code
         };
         #endregion
 
+        #region [ Users ]
         public static List<UserEntity> Users => new List<UserEntity>()
         {
             new UserEntity()
@@ -1854,48 +1857,51 @@ namespace BlogANetReact.Migrations.Code
                 TwoFactorEnabled = false,
                 LockoutEnabled = true,
                 Active = false,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             }
         };
+        #endregion
 
+        #region [ Roles ]
         public static List<RoleEntity> RoleEntities => new List<RoleEntity>()
         {
             new RoleEntity()
             {
                 Name = "Anonymous",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new RoleEntity()
             {
                 Name = "Administrator",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new RoleEntity()
             {
                 Name = "Writer",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new RoleEntity()
             {
                 Name = "Editor",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             },
             new RoleEntity()
             {
                 Name = "Contributor",
                 Active = true,
-                CreatedBy = Guid.Empty,
+                CreatedBy = CreatedBy,
                 CreatedOn = TimeStamp
             }
         };
+        #endregion
     }
 }

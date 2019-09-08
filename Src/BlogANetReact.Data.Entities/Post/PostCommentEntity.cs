@@ -4,9 +4,9 @@ using BlogANetReact.Data.Entities.Base;
 
 namespace BlogANetReact.Data.Entities.Post
 {
-    public class PostCommentEntity : Entity<int>
+    public class PostCommentEntity : Entity<long>
     {
-        public int PostId { get; set; }
+        public long PostId { get; set; }
         public PostEntity Post { get; set; }
         public int AuthorId { get; set; }
         public AuthorEntity Author { get; set; }

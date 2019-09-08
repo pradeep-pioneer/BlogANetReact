@@ -10,7 +10,7 @@ namespace BlogANetReact.Data.Entities.Page
     {
         public int AuthorId { get; set; }
         public AuthorEntity Author { get; set; }
-        public Guid PageId { get; set; }
+        public long PageId { get; set; }
         public PageEntity Page { get; set; }
     }
 }
