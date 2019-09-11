@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogANetReact.Migrations.Data\BlogANetReact.Migrations.Data.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\BlogANetReact.Repository\BlogANetReact.Repository.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="10.0.1" />
+    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.0.1" />
+    <PackageReference Include="Scrutor" Version="3.1.0" />
+  </ItemGroup>
+</Project>

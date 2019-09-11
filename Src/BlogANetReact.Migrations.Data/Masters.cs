@@ -1,11 +1,11 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using BlogANetReact.Data.Entities;
 using BlogANetReact.Data.Entities.Auth;
 
-namespace BlogANetReact.Migrations.Code
+namespace BlogANetReact.Migrations.Data
 {
-    public static class Data
+    public static class Masters
     {
         public static DateTime TimeStamp => DateTime.Now;
         public static int CreatedBy = -1;

@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace BlogANetReact.Migrations.Code
+namespace BlogANetReact.Web.Api
 {
     public class Program
     {

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogANetReact.Data.Model\BlogANetReact.Data.Model.csproj" />
+    <ProjectReference Include="..\BlogANetReact.Data.Entities\BlogANetReact.Data.Entities.csproj" />
+  </ItemGroup>
+</Project>

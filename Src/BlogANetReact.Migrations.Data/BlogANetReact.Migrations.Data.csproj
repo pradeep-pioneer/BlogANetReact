@@ -9,5 +9,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlogANetReact.Data.Model\BlogANetReact.Data.Model.csproj" />
+    <ProjectReference Include="..\BlogANetReact.Data.Entities\BlogANetReact.Data.Entities.csproj" />
   </ItemGroup>
 </Project>
