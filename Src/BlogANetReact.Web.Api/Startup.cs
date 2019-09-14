@@ -8,7 +8,7 @@ using System;
 using BlogANetReact.Web.Api.Extensions;
 using BlogANetReact.Data.Model;
 using BlogANetReact.Data.Entities.Auth;
-using BlogANetReact.Web.Api.Schema;
+using BlogANetReact.Web.Api.Schemas;
 using BlogANetReact.Repository;
 
 namespace BlogANetReact.Web.Api
